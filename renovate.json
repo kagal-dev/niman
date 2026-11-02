@@ -16,6 +16,13 @@
     {
       "matchDatasources": ["go"],
       "constraintsFiltering": "strict"
+    },
+    {
+      "groupName": "Darvaza Projects",
+      "groupSlug": "darvaza",
+      "matchPackageNames": [
+        "darvaza.org/**"
+      ]
     }
   ],
   "postUpdateOptions": [

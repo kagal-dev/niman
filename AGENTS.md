@@ -27,6 +27,9 @@ runs the same way, under `make check-grammar` rather than `make tidy`.
 
 ## Building
 
+`niman` uses the darvaza.org shared build system, which
+[BUILDING.md][building] describes.
+
 ```bash
 make all          # full cycle: get, generate, tidy, build
 make tidy         # format, lint, validate
@@ -47,8 +50,9 @@ make race         # tests with race detection
 
 ## Testing
 
-- Tests follow [TESTING.md][testing] and use `darvaza.org/core`'s
-  assertions.
+`niman` follows the darvaza.org testing rules, which
+[TESTING.md][testing] describes.
+
 - Test files use the external `_test` package. Those needing unexported
   access stay in the package under a `*_internal_test.go` name.
 
