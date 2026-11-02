@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "words": [
+    "darvaza",
+    "niman"
+  ],
+  "ignorePaths": [
+    "**/*.lock",
+    "**/.coverage",
+    "**/.git",
+    "**/.tmp",
+    "**/go.sum",
+    "**/node_modules",
+    "**/vendor"
+  ]
+}
