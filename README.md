@@ -1,7 +1,5 @@
 # niman
 
-<!-- cspell:words celld kagal Sumerian -->
-
 `niman` is a command-line tool for managing clusters of Workers and
 Durable Objects, whether they run on [celld][celld] or on Cloudflare.
 It is aware of [kagal][kagal], and needs neither celld nor `wrangler`
@@ -22,6 +20,15 @@ system, described in `darvaza.org/core`'s [BUILDING.md][building]:
 make all     # get, generate, tidy, build
 make tidy    # format, lint, validate
 make test    # run the tests
+```
+
+The module holds two commands: `niman` itself, and `niman-celld`, the
+sidecar `niman` asks about a cluster's celld nodes, which runs beside
+celld in the cluster's app. `go build` makes either:
+
+```sh
+go build .                            # niman
+go build ./pkg/celld/cmd/niman-celld  # niman-celld
 ```
 
 [building]: https://github.com/darvaza-proxy/core/blob/main/BUILDING.md

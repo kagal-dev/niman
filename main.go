@@ -2,8 +2,6 @@
 // they run on celld or on Cloudflare.
 package main
 
-// cspell:words celld
-
 import (
 	"os"
 

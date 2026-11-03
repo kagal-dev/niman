@@ -5,5 +5,7 @@ coverage.html
 # Test files
 *.test
 # Build and temporary files
+/niman
+/niman-celld
 .tmp
 .srclight/
