@@ -3,7 +3,7 @@ module kagal.dev/niman
 go 1.25.0
 
 require (
-	darvaza.org/core v0.23.1
+	darvaza.org/core v0.23.3
 	github.com/spf13/cobra v1.10.2
 )
 

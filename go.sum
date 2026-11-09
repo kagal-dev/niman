@@ -1,5 +1,5 @@
-darvaza.org/core v0.23.1 h1:0g/tgwZDXvJjNzAEWDmZPQl28sFiOGQ71dZVyhCsi7c=
-darvaza.org/core v0.23.1/go.mod h1:J4e8C8EAiASH13I24EBzxlyuL5MbLJGmJFdUe4slLng=
+darvaza.org/core v0.23.3 h1:qtDlWSkOM/FsTQIfkmR2S6QkCIbaRPVmPZQ+6SDrANo=
+darvaza.org/core v0.23.3/go.mod h1:J4e8C8EAiASH13I24EBzxlyuL5MbLJGmJFdUe4slLng=
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
